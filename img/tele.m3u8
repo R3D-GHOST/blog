@@ -1,5 +1,5 @@
-
-
+#EXTINF:-1 tvg-id="La1.TV" tvg-logo="https://th.bing.com/th/id/OIP.l5ODpGKJu2QmD9Os4grfMQAAAA?rs=1&pid=ImgDetMain" group-title="Generalistas" tvg-name="",DAZN La Liga
+https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/wjgklbtvhh/out/v1/659736a1e24c40e4865a80ffd75e7de7/cenc_video_10_0_32933248.mp4?m=1669670972
 
 #EXTM3U @LaQuay https://github.com/LaQuay/TDTChannels
 #EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml.gz"
