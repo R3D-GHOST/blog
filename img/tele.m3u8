@@ -1,3 +1,7 @@
+#EXTINF:-1 tvg-id="La1.TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThMWE0WCMFnv8Mzg89R9JQuJqov1idGkyFVQ&s" group-title="Deportes" tvg-name="Movistar Plus",Movistar +
+http://392275146995880854.ofd92622.xyz:80/live/640555075/990983222/880854.ts
+
+
 #EXTM3U @LaQuay https://github.com/LaQuay/TDTChannels
 #EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml.gz"
 #EXTINF:-1 tvg-id="La1.TV" tvg-logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg" group-title="Generalistas" tvg-name="La 1",La 1
