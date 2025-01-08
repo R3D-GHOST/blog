@@ -6,14 +6,20 @@ https://8c5.pricesaskeloadsc.com/movistarlaliga/tracks-v1a1/mono.m3u8?token=ea71
 https://doc.pricesaskeloadsc.com/dazn1/tracks-v1a1/mono.m3u8?token=5d882c1c4d11e82e4b607f39e67a6d5cf0ad27ca-57-1736331320-1736295320
 
 
-
 #EXTINF:-1 group-title="github", La Liga TV
-https://c2f2zq.fubohd.com/laligatvbar/tracks-v1a1/2025/01/08/01/40/18-05000.ts?token=24db979f6044cd37ffe24d7c938e09b06f5d6079-50-1736335510-1736299510
+https://d2hpc3rszq.fubohd.com/laligatvbar/tracks-v1a1/mono.m3u8?token=ce27b5924702a2386df9b183d0dc477c01ab5ef1-ef-1736335758-1736299758
 
 
+#EXTINF:-1 group-title="github", Movistar La Liga 
+https://8c5.pricesaskeloadsc.com/movistarlaliga/tracks-v1a1/mono.m3u8?token=ea7164f50b17f580f3ebbec4f4e3a4b2e014a536-45-1736335648-1736299648
 
 
+#EXTINF:-1 group-title="github", Movistar La Liga de Campeones
+https://coeld.pricesaskeloadsc.com/movistarligadecampeones/tracks-v1a1/mono.m3u8?token=5de9dcb35d38b8cf8ac9f0bde90cd77d43d5cc8f-f7-1736335798-1736299798
 
+
+#EXTINF:-1 group-title="github", DAZN 2
+https://98ca.pricesaskeloadsc.com/dazn2/tracks-v1a1/mono.m3u8?token=9501045469bb3a9d86c65a2780c245a3e70e7f5e-7f-1736335832-1736299832
 
 ##### PLUTO TV
 
