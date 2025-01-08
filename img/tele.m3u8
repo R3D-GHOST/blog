@@ -105,7 +105,7 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60c343007bcabe0007242a
 #EXTINF:-1, El Comisario+
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/627151676758ea00078e8ff4/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceModel=unknown&deviceVersion=unknown&appVersion=unknown&deviceLat=90&deviceLon=0&deviceDNT=TARGETOPT&deviceId=PSID&advertisingId=PSID&us_privacy=1YNY&profileLimit=&profileFloor=&embedPartner=
 
-#EXTINF:-1, [El Conquistador del Fin] [Entretenimiento] [450] [ES]
+#EXTINF:-1, El Conquistador del Fin
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f280149cec6be00072ab1fc/master.m3u8?deviceType=unknown&deviceMake=unknown&deviceModel=unknown&deviceVersion=unknown&appVersion=unknown&deviceLat=90&deviceLon=0&deviceDNT=TARGETOPT&deviceId=PSID&advertisingId=PSID&us_privacy=1YNY&profileLimit=&profileFloor=&embedPartner=
 
 
@@ -1383,6 +1383,15 @@ https://3abn-live.akamaized.net/hls/live/2010547/Latino/master.m3u8
 https://3abn-live.akamaized.net/hls/live/2010543/3ABN/master.m3u8
 
 
+
+
+
+
+
+
+
+
+##### Rakuten TV
 
 #EXTM3U url-tvg="https://helmerluzo.github.io/RakutenTV_HL/epg/RakutenTV.xml.gz"
 #EXTINF:-1 tvg-id="top-movies-rakuten-tv" tvg-name="top-movies-rakuten-tv" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/645e383c-88f5-4378-88fd-0d4989c01cde.jpeg" group-title="Películas" , Pelis Top
