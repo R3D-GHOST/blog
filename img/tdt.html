@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor de Canales</title>
+  <link href="https://cdn.jsdelivr.net/npm/video.js@7.10.2/dist/video-js.css" rel="stylesheet">
+  <!-- Font Awesome for dropdown icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    <ul id="menu">
+      <li><a href="tdt.html">TV</a></li>
+      <li><a href="acestream.html">ACESTREAN CHANNEL</a></li>
+      <li><a href="extra.html">EXTRA</a></li>
+    </ul>
+  </nav>
+
+  <div id="canales-container">
+    <!-- Los canales se cargarán dinámicamente aquí -->
+  </div>
+
+  <div class="loading" id="loading-message">
+    Cargando más canales...
+  </div>
+
+  <div class="video-container" id="video-container">
+    <video id="video-player" class="video-js vjs-default-skin" controls autoplay></video>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/video.js@7.10.2/dist/video.js"></script>
+  <script>
+    let currentOffset = 0;
+    let canales = [];
+    let loading = false;
+    let hls;
+
+    const logos = {
+      'Canal 1': 'https://example.com/logo1.png',
+      'Canal 2': 'https://example.com/logo2.png',
+    };
+
+    function loadMoreChannels() {
+      const loadingMessage = document.getElementById('loading-message');
+      if (loading) return;
+
+      loading = true;
+      loadingMessage.style.display = 'block';
+
+      setTimeout(() => {
+        const nextChannels = canales.slice(currentOffset, currentOffset + 60);
+        currentOffset += 30;
+
+        nextChannels.forEach(canal => {
+          const canalDiv = document.createElement('div');
+          canalDiv.classList.add('canal');
+          canalDiv.setAttribute('data-m3u8', canal.m3u8);
+
+          const logoImg = document.createElement('img');
+          logoImg.src = canal.logo;
+          logoImg.alt = canal.nombre;
+
+          const fallbackDiv = document.createElement('div');
+          fallbackDiv.classList.add('fallback');
+          fallbackDiv.textContent = canal.nombre;
+
+          logoImg.onerror = function() {
+            logoImg.style.display = 'none';
+            fallbackDiv.style.display = 'flex';
+          };
+
+          canalDiv.appendChild(logoImg);
+          canalDiv.appendChild(fallbackDiv);
+          document.getElementById('canales-container').appendChild(canalDiv);
+
+          canalDiv.addEventListener('click', function() {
+            cargarReproductor(canal.m3u8);
+          });
+        });
+
+        loading = false;
+        loadingMessage.style.display = 'none';
+      }, 1000);
+    }
+
+    function cargarReproductor(m3u8Url) {
+      const videoContainer = document.getElementById('video-container');
+      const videoPlayer = document.getElementById('video-player');
+
+      if (hls) {
+        hls.destroy();
+      }
+
+      hls = new Hls();
+      if (Hls.isSupported()) {
+        hls.loadSource(m3u8Url);
+        hls.attachMedia(videoPlayer);
+        hls.on(Hls.Events.MANIFEST_PARSED, function () {
+          videoContainer.style.display = 'block';
+          videoPlayer.play();
+        });
+      } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+        videoPlayer.src = m3u8Url;
+        videoContainer.style.display = 'block';
+        videoPlayer.play();
+      }
+
+      if (videoPlayer.requestFullscreen) {
+        videoPlayer.requestFullscreen();
+      }
+
+      videoPlayer.onfullscreenchange = function() {
+        if (!document.fullscreenElement) {
+          videoPlayer.pause();
+          videoPlayer.currentTime = 0;
+          videoContainer.style.display = 'none';
+        }
+      };
+    }
+
+    async function cargarCanales() {
+      const m3u8Url = 'tv.m3u8';
+      try {
+        const response = await fetch(m3u8Url);
+        if (!response.ok) {
+          throw new Error('No se pudo cargar el archivo m3u8');
+        }
+        const data = await response.text();
+
+        canales = analizarM3u8(data);
+        loadMoreChannels();
+      } catch (error) {
+        console.error('Error al cargar el archivo m3u8:', error);
+      }
+    }
+
+    function analizarM3u8(m3u8Data) {
+      const canales = [];
+      const regex = /#EXTINF:[^\n]*,(.*?)\n(.*?)\n/g;
+
+      let match;
+      while ((match = regex.exec(m3u8Data)) !== null) {
+        const nombreCanal = match[1].trim();
+        const urlCanal = match[2].trim();
+
+        const logoCanal = logos[nombreCanal] || 'https://example.com/default-logo.png';
+
+        canales.push({
+          nombre: nombreCanal,
+          m3u8: urlCanal,
+          logo: logoCanal
+        });
+      }
+
+      return canales;
+    }
+
+    window.addEventListener('scroll', function() {
+      const nearBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100;
+      if (nearBottom) {
+        loadMoreChannels();
+      }
+    });
+
+    // Función para activar/desactivar el menú en dispositivos pequeños
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('show');
+    }
+
+    cargarCanales();
+  </script>
+
+</body>
+</html>

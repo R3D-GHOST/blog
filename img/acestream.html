@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor de Canales AceStream</title>
+  <link href="https://cdn.jsdelivr.net/npm/video.js@7.10.2/dist/video-js.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    <ul id="menu">
+      <li><a href="tdt.html">TV</a></li>
+      <li><a href="acestream.html">ACESTREAM CHANNEL</a></li>
+      <li><a href="extra.html">EXTRA</a></li>
+    </ul>
+  </nav>
+
+  <div id="canales-container">
+    <!-- Los canales se cargarán dinámicamente aquí -->
+  </div>
+
+  <div class="loading" id="loading-message">
+    Cargando más canales...
+  </div>
+
+  <div class="video-container" id="video-container">
+    <video id="video-player" class="video-js vjs-default-skin" controls autoplay></video>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/video.js@7.10.2/dist/video.js"></script>
+  <script>
+    let currentOffset = 0;
+    let canales = [];
+    let loading = false;
+
+    const logos = {
+    };
+
+    function loadMoreChannels() {
+      const loadingMessage = document.getElementById('loading-message');
+      if (loading) return;
+
+      loading = true;
+      loadingMessage.style.display = 'block';
+
+      setTimeout(() => {
+        const nextChannels = canales.slice(currentOffset, currentOffset + 30);
+        currentOffset += 30;
+
+        nextChannels.forEach(canal => {
+          const canalDiv = document.createElement('div');
+          canalDiv.classList.add('canal');
+          canalDiv.setAttribute('data-acestream', canal.acestream);
+
+          const logoImg = document.createElement('img');
+          logoImg.src = canal.logo;
+          logoImg.alt = canal.nombre;
+
+          const fallbackDiv = document.createElement('div');
+          fallbackDiv.classList.add('fallback');
+          fallbackDiv.textContent = canal.nombre;
+
+          logoImg.onerror = function() {
+            logoImg.style.display = 'none';
+            fallbackDiv.style.display = 'flex';
+          };
+
+          canalDiv.appendChild(logoImg);
+          canalDiv.appendChild(fallbackDiv);
+          document.getElementById('canales-container').appendChild(canalDiv);
+
+          canalDiv.addEventListener('click', function() {
+            cargarConAceStream(canal.acestream);
+          });
+        });
+
+        loading = false;
+        loadingMessage.style.display = 'none';
+      }, 1000);
+    }
+
+    function cargarConAceStream(acestreamUrl) {
+      // Aquí es donde debes manejar el enlace AceStream, redirigiendo a un cliente compatible
+      // Si tienes un cliente AceStream como AcePlayer, puedes abrir el enlace en ese cliente
+      const aceStreamLink = `acestream://${acestreamUrl}`;
+
+      // Para abrirlo en un cliente instalado, puedes redirigir a un enlace:
+      window.location.href = aceStreamLink;
+
+      // Alternativamente, podrías redirigir al usuario a un reproductor específico si es necesario
+      // Ejemplo: si tu aplicación tiene una integración con un servicio específico
+    }
+
+    async function cargarCanales() {
+      // Canales AceStream (la información que me proporcionaste)
+      const aceStreamData = [
+        { nombre: 'La liga de campeones', acestream: '931b1984badcb821df7b47a66ac0835ac871b51c', logo: 'https://example.com/logo1.png' },
+        { nombre: 'Movistar la liga', acestream: 'f031f5728b32f6089dda28edebe990cf198108d8', logo: 'https://example.com/logo2.png' },
+        { nombre: 'La liga hypermotion', acestream: '4c46585214b23b1d802ef2168060c7649a3894cf', logo: 'https://example.com/logo3.png' },
+        { nombre: 'Dazn la liga', acestream: 'a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914', logo: 'https://example.com/logo4.png' },
+        { nombre: 'Dazn 1', acestream: 'eaff9293c76a324c750ef5094c2a4e2c96518d1f', logo: 'https://example.com/logo5.png' },
+        { nombre: 'Dazn Formula 1', acestream: '9dad717d99b29a05672166258a77c25b57713dd5', logo: 'https://example.com/logo6.png' },
+        { nombre: 'Movistar Deportes', acestream: 'd00223931b1854163e24c5c22475015d7d45c112', logo: 'https://example.com/logo7.png' },
+        { nombre: 'DAZN F1', acestream: 'd6281d4e6310269b416180442a470d23a4a99dc9', logo: 'https://example.com/logo8.png' },
+        { nombre: 'DAZN F1 OP 2', acestream: '268289e7a3c5209960b53b4d43c8c65fab294b85', logo: 'https://example.com/logo9.png' },
+        { nombre: 'LA LIGA TV BAR', acestream: '608b0faf7d3d25f6fe5dba13d5e4b4142949990e', logo: 'https://example.com/logo10.png' },
+        { nombre: 'DAZN LA LIGA 2', acestream: '97ba38d47680954be40e48bd8f43e17222fefecb', logo: 'https://example.com/logo11.png' },
+        { nombre: 'LA LIGA hypermotion', acestream: '121f719ebb94193c6086ef92865cf9b197750980', logo: 'https://example.com/logo12.png' },
+        { nombre: 'Movistar series', acestream: '28dc545c00d47a620bc7243657de5a85811f1254', logo: 'https://example.com/logo13.png' },
+        { nombre: 'LA LIGA DE campeones', acestream: '840f68a0dc6e27c2927a16b4d42b9401ac50270b', logo: 'https://example.com/logo14.png' }
+      ];
+
+      canales = aceStreamData;
+      loadMoreChannels();
+    }
+
+    window.addEventListener('scroll', function() {
+      const nearBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100;
+      if (nearBottom) {
+        loadMoreChannels();
+      }
+    });
+
+    // Función para activar/desactivar el menú en dispositivos pequeños
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('show');
+    }
+
+    cargarCanales();  // Cargar los canales
+  </script>
+
+</body>
+</html>

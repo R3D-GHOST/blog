@@ -1,0 +1,230 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Estilo del contenedor de canales */
+#canales-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Estilo para los canales */
+.canal {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  width: 250px;
+  height: 130px;
+  position: relative;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #ff0000, #000000);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  overflow: hidden;
+}
+
+.canal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Fallback text inside the canal */
+.canal .fallback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(50, 50, 50, 0.7);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15px;
+  border: 4px solid #ffcc00;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.canal:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 18px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(135deg, #ffcc00, #000000);
+}
+
+.canal:hover .fallback {
+  background-color: rgba(255, 51, 51, 0.9);
+  transform: scale(1.05);
+}
+
+/* Animación de fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Estilo para el reproductor de video */
+.video-container {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 999;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Estilo de texto de carga */
+.loading {
+  text-align: center;
+  font-size: 22px;
+  margin: 20px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Estilo para el menú */
+nav {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  transition: max-height 0.5s ease-in-out;
+}
+
+nav ul li {
+  position: relative;
+  margin-right: 25px;
+}
+
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ffcc00;
+  border-radius: 4px;
+  color: #1a1a1a;
+  transform: scale(1.1);
+}
+
+/* Menú hamburguesa */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 32px;
+  color: white;
+  z-index: 1001;
+}
+
+/* Menú desplegable en pantallas pequeñas */
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  top: 100%;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  min-width: 160px;
+  border-radius: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+nav ul li:hover > ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul li ul li {
+  display: block;
+}
+
+/* Animación del menú */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Estilo para el menú en pantallas pequeñas */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  nav ul.show {
+    display: flex;
+    max-height: 300px;
+    animation: slideIn 0.5s ease-out;
+  }
+
+  nav ul li {
+    margin: 12px 0;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    padding: 12px;
+  }
+
+  nav ul li ul {
+    position: static;
+    width: 100%;
+    padding: 0;
+  }
+}
