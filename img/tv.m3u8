@@ -22,5 +22,5 @@ https://ztnr.rtve.es/ztnr/6108703.m3u8
 https://ztnr.rtve.es/ztnr/6712432.m3u8
 
 #EXTM3U
-#EXTINF:-1 tvg-id="LaSexta" tvg-name="La Sexta" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/LaSexta_logo_2022.svg/512px-LaSexta_logo_2022.svg.png" group-title="España",La Sexta
+#EXTINF:-1 tvg-id="LaSexta" tvg-name="La Sexta" tvg-logo="https://yt3.googleusercontent.com/rFJHR6plWpfms3JTH6Mz6peV1HLvIijUw-nF7fASoTllM7ZbY0mNOMn9n8YfBYPugvtGBnyW9A=s900-c-k-c0x00ffffff-no-rj" group-title="España",La Sexta
 http://185.189.225.150:85/LaSexta/index.m3u8
