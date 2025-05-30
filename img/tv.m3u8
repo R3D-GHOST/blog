@@ -19,7 +19,7 @@ https://ztnr.rtve.es/ztnr/1694255.m3u8
 https://ztnr.rtve.es/ztnr/6712432.m3u8
 
 #EXTM3U
-#EXTINF:-1 tvg-id="Telecinco.es" tvg-name="Telecinco" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Telecinco_2022_logo.svg/512px-Telecinco_2022_logo.svg.png" group-title="España",Telecinco
+#EXTINF:-1 tvg-id="Telecinco.es" tvg-name="Telecinco" tvg-logo="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2024/08/30/17250136890034.png" group-title="España",Telecinco
 http://185.189.225.150:85/TeleCincoHD/index.m3u8
 
 #EXTM3U
