@@ -31,3 +31,214 @@ http://185.189.225.150:85/LaSexta/index.m3u8
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s", DAZN F1
 http://190.92.10.66:4000/play/a003/index.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://www.lapreferente.com/imagenes/escudos/escudo-5129.png?f=1501020000" group-title="📺 movistar+ 🇪🇦 ",🇪🇦 ESPAÑA 🇪🇦
+https://dl.dropboxusercontent.com/scl/fi/d22zor5zus3q0hp9fzf7d/1_5098376675729605700.mp4?rlkey=yl6565jfzwi0lbn26hbhn8b6m&dl=0
+#EXTINF:-1tvg-logo=" https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GHMKASZKH5FATO6MMTEH2EREPY.jpg" group-title="  ",🇪🇦 |mundial de clubs
+http://gama-mx.com:8080/live/Diegojama12/Djama17042021/602563.ts
+#EXTINF:-1tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GHMKASZKH5FATO6MMTEH2EREPY.jpg" group-title="  ",🇪🇦|mundial de clubs
+http://esfamous.top:8080/es9321740762500006/46a4804a4951/6
+#EXTINF:-1tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GHMKASZKH5FATO6MMTEH2EREPY.jpg"group-title="  ",🇪🇦|mundial de clubs
+http://nodns1.top:8080/live/11710005016143/e344b429dde5/57561.ts
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/19/Logo_TVE-1.svg/revision/latest/scale-to-width-down/200?cb=20220319071348" group-title=" ",🇪🇦 | Tve la 1
+http://nodns1.top:8080/live/11710005016143/e344b429dde5/5622.ts
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_19_19E_3E8_22D4_EEEE0000_0_0_0.png" group-title="",🇪🇦 | Tve la 1 
+http://nodns1.top:8080/1331726407902180/e69cf378b765/5622
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_19_1A2_3E8_22D4_EEEE0000_0_0_0.png" group-title=" ",🇪🇦 | LA 2 
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/2
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_19_95_F_22D4_EEEE0000_0_0_0.png" group-tite=" ",🇪🇦 | ANTENA 3 
+http://streamprostk.com:2082/live/stkjugta/7493/2532.ts
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_19_BF_10_22D4_EEEE0000_0_0_0.png" group-title=" ",🇪🇦 | CUATRO 
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/5
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/18/Telecinco_2024.svg/revision/latest/scale-to-width-down/150?cb=20240902162607"group-title=" ",🇪🇦 | tele 5
+http://streamprostk.com:2082/live/stkjugta/7493/50586.ts
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_19_BE_10_22D4_EEEE0000_0_0_0.png" group-title=" ",🇪🇦 | tele 5 
+http://24tv.tn:8000/live/carretero/75180012/200327.ts
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_19_97_F_22D4_EEEE0000_0_0_0.png" group-title=" ",🇪🇦 | LA SEXTA
+http://streamprostk.com:2082/live/stkjugta/7493/2534.ts
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/Movistar_.svg/revision/latest/scale-to-width-down/1200?cb=20201030223306&path-prefix=es  "group-title=" ",🇪🇦 |M+Plus
+http://esfamous.top:8080/es9321740762500006/46a4804a4951/86
+#EXTINF:-1 tvg-logo=" https://www.movistarplus.es/recorte/m-NEO/canal/MPLUS2.png  "group-title="  ",M+Plus 2
+https://appstable.xyz:443/live/dD30PrmqECUM/ddwWqXHpnPBub/202997.m3u8
+#EXTINF:-1 tvg-logo=" https://pbs.twimg.com/profile_images/1279727978268839938/jSZUiboT_400x400.jpg " group-title=" ",🇪🇦 | la otra
+https://telemadrid-23-secure2.akamaized.net/master.m3u8
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_1_9A_F_22D4_EEEE0000_0_0_0.png" group-title=" ",🇪🇦 | NOVA
+http://blazetv.link:8080/kcirque@gmail.com/3Q8aPrXeNe/1047864
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVn6AjEoqw5_zXTk1zR4q_QphyqqogxCZD8g&usqp=CAU " group-title=" ",🇪🇦 | Hollywood
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100144.ts
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_1_99_F_22D4_EEEE0000_0_0_0.png" group-title=" ",🇪🇦 | NEOX
+http://streamprostk.com:2082/live/stkjugta/7493/2523.ts
+
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_1_7729_416_1_C00000_0_0_0.png" group-title=" ",🇪🇦 | CANAL andalucia 
+http://tvlat2020.com:8080/CarMen/NpTkCw8WWXXE/6769
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCeVtJZ-QMtOuUo48bfp5daYaI_af4AjjCAQ&usqp=CAU  " group-title=" ",🇪🇦| canal sur
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/73
+#EXTINF:-1 tvg-logo="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5MtrOZO1KoVv-_r2S7xAGD0rEJZKoMhD2Og&usqp=CAU" group-title=" ",🇪🇦 |caza y pesca
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100280.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5SxZVOML784BXtmrXOc21Q8peh7cNEMDiEA&usqp=CAU" group-title="",🇪🇦 |DKISS
+http://24tv.tn:8000/live/carretero/75180012/200340.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWvT5cMoSSPX9fpBjdJQZir5I8B_HyM8stmA&usqp=CAU" group-title="",🇪🇦 |Canal De casa
+http://24tv.tn:8000/live/carretero/75180012/200527.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYoJoLJg_ialC5NUboeLXXpX2QI2RO2io0ZrFTsnES0A&s" group-title="",🇪🇦 |Odisea 
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100268.ts
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLObHfg7PwUtGdLcHvHEvIE2nVa8Lfdk9AHbVc30Giog&s" group-title="",🇪🇦 |Discovery 
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100264.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLe5xDDTx8oH8GLfeuOQ0RjAbdRfUmEPCPav4UwqA0A&s" group-title="",🇪🇦 |Historia 
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100256.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQLjwmPx8nzTyFvp4hEB9OMwkytCHtxFG-HL_s-FOK5g&s" group-title="",🇪🇦 |Nat Geo Wild 
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100258.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNIf8uKZWDFcuKj2zTCCpbCUi2wAFMbt6jNA&usqp=CAU" group-title="",🇪🇦 |DMAX 
+http://24tv.tn:8000/live/carretero/75180012/200534.ts
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_1_9B_11_22D4_EEEE0000_0_0_0.png" group-title=" ",🇪🇦 | mega
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100224.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTizWcuj_bhK1zIACzD1O6dX0O1aBf9d0skog&usqp=CAU" group-title=" ",🇪🇦 | somos
+http://24tv.tn:8000/live/carretero/75180012/200441.ts
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_19_66_12_22D4_EEEE0000_0_0_0.png" group-title=" ",🇪🇦 | Be mad tv 
+http://24tv.tn:8000/live/carretero/75180012/200399.ts
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCqa4zz62llCA2NzdOKk5xcu_N GQI8ar4IA&usqp=CAU" group-title=" ",🇪🇦 | Tele Cantabria
+https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
+#EXTINF:-1 tvg-logo=" https://i.ytimg.com/vi/YlxgLXrAsX4/maxresdefault.jpg", tevecan9
+https://streamlov.alsolnet.com/jarbhouse/live/playlist.m3u8
+#EXTINF:=1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3K9UkmHOcXDo8fq72MMfk1h_TxEZjrm2wmA&s  ", laredolin tv
+https://eu1.servers10.com:8081/8034/index.m3u8
+#EXTINF:-1tvg-logo=" https://upload.wikimedia.org/wikipedia/commons/c/cb/Dark_logo.png  "group-title=" ",🇪🇦 |DarK
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100155.ts
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CgwXw3Jul5nFWUuKm7I_OjrT2FdOS1N20A&usqp=CAU " group-title=" ",🇪🇦 | blaze
+http://tvlat2020.com:8080/CarMen/NpTkCw8WWXXE/6770
+#EXTINF:-1 tvg-logo="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVxxhskHW_JcHmemrP524IPBuC0DUHKa0FEA&s" group-title=" ",🇪🇦 | cazavision
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100282.ts
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_e6ORHA07sy2EJc0gOZeJIY-mlJjKPxOH-A&usqp=CAU " group-title=" ",🇪🇦 | energy
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100213.ts
+#EXTINF:-1 tvg-logo="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYtsLzxkIHc8DvYSSLjRM2GUtPf1c7P_e98A&usqp=CAU" group-title=" ",🇪🇦 | divinity
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100216.ts
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/ETB1.png" group-title=" ",🇪🇦 | ETB 1
+https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/EXTRE.png" group-title=" ",🇪🇦 | CANAL Extremadura
+http://blazetv.link:8080/kcirque@gmail.com/3Q8aPrXeNe/973379
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/ETB2.png" group-title=" ",🇪🇦 | ETB 2
+https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/FDFIC.png" group-title=" ",🇪🇦 | FDF
+http://zsatmeta.ro:8080/live/Gabriel_Coli/btKFf6oeU1/100218.ts
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/TEN.png" group-title=" ",🇪🇦 | TEN
+http://24tv.tn:8000/live/carretero/75180012/200338.ts
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/TVC.png" group-title=" ",🇪🇦 | TV3 CAT
+http://24tv.tn:8000/live/carretero/75180012/200357.ts
+
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/ETB.png" group-title=" ",🇪🇦 | EITB BASQUE
+https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
+
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTOZwdYr500230pQEMkJE40s3am8pwq9Ny0A&usqp=CAU " group-title=" ",🇪🇦 | antena 3 internacional 
+http://tv.proyectox.vip:8080/rofelix07/JRaZMXurTZ/8143
+#EXTINF:-1 tvg-logo=" https://ayuda.ubeat.tv/meta-image.jpg  "group-title=" ",🇪🇦 | Ubeat
+http://perfect.bestocussupport.uk:8080/Marta170ntr/7pvQZDt9zz/70791
+
+#EXTINF:-1 tvg-logo=" https://static.wikia.nocookie.net/dreamlogos/images/0/0d/MTV_Hits_Europe.png/revision/latest/scale-to-width-down/340?cb=20190802093637 " group-title=" ",🇪🇦 |MTV Hits
+http://smarterstv99.dyndns.tv:25461/live/Miguelmoreno/jg8AwXkZL2yE/94621.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMCRxr3ARrMGyNPsZZE7Pij1zh3hx9X8_afw&s  " group-title=" ",🇪🇦 |MTV live
+http://tv.proyectox.vip:8080/rofelix07/JRaZMXurTZ/8313
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3bMCOzU7Tw_lW4NKXHLtQBHcVTlOuMcgKA&s"group-title=" ",🇪🇦 | cadena elite
+http://qwert.odin55.xyz:8080/live/pepejardineromanoloccoo/XbikYgxmUo/6279.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUjGd9OU4Lkv7SPHYC48hL2zDQtOR1VSpQbcTS6KnpA&s " group-title=" ",🇪🇦 | MTV España
+http://24tv.tn:8000/live/carretero/75180012/200396.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIrXfHsHwIM-DGAiE_mJ_yCbea6HvJNSRBA&usqp=CAU  "group-title" ",🇪🇦 | Sol
+http://afd4f.77xxs.xyz:80/live/Torres0512/Akemtedmw122/861599.ts
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e2/Ritmoson_Latino_2009.svg/revision/latest/scale-to-width-down/250?cb=20230830132332 "group-title=" ",🇪🇦 | Ritmoson
+http://00001111.dynahost.ovh:80/DAF180322/rw2Gvgv6Wk/101311
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxAJWG8hU3IYEIvlCQnD15xWnmmQ2HZIPidA&s " group-title=" ",🇪🇦 |Disney Junior 
+http://24tv.tn:8000/live/diego/61664648/200542.ts
+#EXTINF:-1 tvg-logo=" https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nick_Jr._logo_2023.svg/2192px-Nick_Jr._logo_2023.svg.png"group-title=" ",🇪🇦 |Canal nick jr
+http://esproliwstg.top:8080/live/es1651729971419001/f22d79a852dc/51.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ZOzcTGTPA-yZ_JHKc0m1fTZoItqs2bkKYg&usqp=CAU"  group-title=" ", 🇪🇦 |movistar Clasicos
+http://live2024.2odin.xyz:8080/live/danihoyos/HNTlMnLrgu/7576.ts
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Movistar%2B_Logo.png "group-title=" ",🇪🇦 |M+Plus
+http://esfamous.top:8080/es9321740762500006/46a4804a4951/86
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfPzOL2eI_RIzMJVOLzXwRC2c40F1wOjazDA&usqp=CAU "group-title="  ",🇪🇦 | LA Resistencia
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/28
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkegZack654ZmA5rYhMkouEbgtw1BG3tQG5w&usqp=CAU"  group-title="  ", 🇪🇦 |movistar estrenos
+http://2.magmas5.com:8000/live/dboddent/MF04XAEHC9/126275.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ibbGrKU1aYKqalHcS_Hu5J7lcW_WVbOJBQ&usqp=CAU"  group-title="  ", 🇪🇦 |Movistar accion
+http://nodns1.top:8080/1331726407902180/e69cf378b765/5632
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwZ1G1OrAk0E6oETYiKuJIBWOdZWY4dKxAQZQLWntSQ&s" group-title="",🇪🇦 |Documentales por M+ 
+http://filex.tv:8080/Khalid1979/Goma1979/292850
+
+#EXTINF:- tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/27/Comedia_por_Movistar_Plus%2B_2023.svg/revision/latest/scale-to-width-down/78?cb=20230721191930"  group-title="", 🇪🇦 |Movistar comedía
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/16
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY6vWVms9DmkVJtry5ULKqUTA5EtFXOShNmA&usqp=CAU"  group-title=" ", 🇪🇦 |movistar drama
+http://2.magmas5.com:8000/live/dboddent/MF04XAEHC9/126330.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgPjdeiGqDV5Eb1p_aZkfBvHVq1cb0XIqNiQ&usqp=CAU"  group-title="", 🇪🇦 |Movistar suspense 
+http://tv.iptvcover.xyz:8080/Jeremy71638wC/fVYXbtpzdH8m/308836
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHt4QfaHInLjUuGDOZy6knoKcWVbh4YP3Hw&usqp=CAU " group-title="", 🇪🇦 |fox life
+http://24tv.tn:8000/live/diego/61664648/200457.ts
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/DCESP.png" group-title="", 🇪🇦 |Movistar CINE ESPAÑOL
+http://nodns1.top:8080/1331726407902180/e69cf378b765/5633
+#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-DPBLAN/guiapc/MV1.png" group-title="", 🇪🇦 |Movistar CINE
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/10
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/BOM.png" group-title=" ", 🇪🇦 | BOM cine
+http://mu3241218.oknirvana.club:8880/DAANM2918/3M6D5tdtJm/2580
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQkGMNvCaGe_CWlbRFBFX58A-YiMOUkMm-5w&usqp=CAU " group-title=" ", 🇪🇦 |somos
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/16785
+#EXTINF:-1 tvg-logo="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV8Tf6F22pnuTp6WpT-8cCwAXFnKd8jKDp-g&usqp=CAU" group-title=" ", 🇪🇦 originales
+http://blazetv.link:8080/kcirque@gmail.com/3Q8aPrXeNe/1042489
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_1_CA_E_22D4_EEEE0000_0_0_0.png" group-title=" ", 🇪🇦 |PARAMOUNT NETWORK
+http://185.189.225.149/paramount/index.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQezwmExALpObbHOgS8-Idz1RE6IZ4z5WAn6g&usqp=CAU"  group-title=" ", 🇪🇦 |calle 13
+http://live2024.2odin.xyz:8080/live/danihoyos/HNTlMnLrgu/5815.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVn6AjEoqw5_zXTk1zR4q_QphyqqogxCZD8g&usqp=CAU"  group-title=" ", 🇪🇦 |Hollywood 
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/35
+#EXTINF:-1 tvg-logo="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFhCYjXmpIBPgQYosT6qyeIIl0xXrjSIdrlw&usqp=CAU" group-title=" ", 🇪🇦 | rakuten tv
+https://128559a99ef24f61b53e3f954af3db8c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-es_Local/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://cdn.logos.noaccesss.me/logo/MOVISTAR/1_0_19_65_12_22D4_EEEE0000_0_0_0.png" group-title=" ", 🇪🇦 |A3series 
+http://directo.ddns.me:2082/rsoto90/7876/2520
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTElhZn9DoX5MAWB2peKpqDSG55j4P1qSGsow&s  " group-title=" ", 🇪🇦 |A3Cine
+http://tv.proyectox.vip:8080/rofelix07/JRaZMXurTZ/9617
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCPzluaVMUn_2oNPapqNvV_nCDyOOPxJ2Qqw&usqp=CAU"  group-title=" ", 🇪🇦 |amc
+http://tv.iptvcover.xyz:8080/Jeremy71638wC/fVYXbtpzdH8m/308827
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMHMOvhk91Qa69PvZZNETWDmx1iyEmdvdZbg&usqp=CAU"  group-title=" ", 🇪🇦 Warner
+http://directo.ddns.me:2082/rsoto90/7876/2520
+#EXTINF:-1 tvg-logo=" https://image.pngaaa.com/380/5477380-middle.png  "group-title=" ",🇪🇦 | Rakuten Accion
+http://afbr9.7zz8.xyz:80/live/BDGF31017/GDTF483742E/1011798.ts
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmf6FWsNh6BLv_SuBoDo9hYQ5eheLnNHRzg&usqp=CAU "group-title=" ",🇪🇦 | Rakuten Comedia
+http://259381206151979760.ofdgk1124.xyz:80/live/EDJUPGSA4C/0869008345/979760.ts
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmf6FWsNh6BLv_SuBoDo9hYQ5eheLnNHRzg&usqp=CAU "group-title="  ",🇪🇦 | Rakuten Familia
+http://830415457950978274.ofdgk1124.xyz:80/live/SERVICIO/@H8cQbTKrkQ/978274.ts
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmf6FWsNh6BLv_SuBoDo9hYQ5eheLnNHRzg&usqp=CAU "group-title="  ",🇪🇦 |Rakuten Historias
+https://rakuten-spotlight-2-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmf6FWsNh6BLv_SuBoDo9hYQ5eheLnNHRzg&usqp=CAU  "group-title="  ",🇪🇦 |Rakuten Pelis Top
+http://afbr9.7zz8.xyz:80/live/BDGF31017/GDTF483742E/1017029.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmf6FWsNh6BLv_SuBoDo9hYQ5eheLnNHRzg&usqp=CAU  "group-title="  ",🇪🇦 | Rakuten Thriller
+https://c494a836bb214f8bb486580f8b23e433.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-es_RakutenThriller/playlist.m3u8
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmf6FWsNh6BLv_SuBoDo9hYQ5eheLnNHRzg&usqp=CAU "group-title="  ",🇪🇦 | Rakuten Romántico
+https://2d8524e2966d4b348b210ec79bdaa943.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-es_RakutenRomance/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=" https://play-lh.googleusercontent.com/58WhUbhDxh9K0a98dI4qNjwAyOBaNyGauw4RBENw7y4NMHTJQcKufiDUXFaRaTy8Xzc=w240-h480-rw" group-title="⚽ Deportes / La Liga ⚽️ ", M+plus  
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/86
+EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5JXi_ksCmW3VL-8GmycB9iWqVK1ltDYJXA&usqp=CAU"group-title=" ", Supercopa
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/26612
+EXTINF:-1tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvQfqVBfMghjZgDRMOHqMJC_SzhefqCYMbA&s" group-title="  ", Copa del Rey
+http://test.esprogregtt.top:8080/es9141738704072002/5e5df6988594/26612
+
+#EXTINF:-1tvg-logo=" https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GHMKASZKH5FATO6MMTEH2EREPY.jpg" group-title="  ",🇪🇦 |mundial de clubs
+http://streamprostk.com:2082/live/stkjugta/7493/50586.ts
+#EXTINF:-1tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GHMKASZKH5FATO6MMTEH2EREPY.jpg" group-title="  ",🇪🇦|mundial de clubs
+http://mu3241218.oknirvana.club:8880/DAANM2918/3M6D5tdtJm/2559
+#EXTINF:-1 tvg-logo=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBCa6SydXxbOh3qbRLTAWW6FOnRo5nXa9kw&s "group-title=" ",La Liga Sky Sports
+http://streamprostk.com:2082/live/stkjugta/7493/57435.ts
+#EXTINF:-1 tvg-logo=" https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/240px-LaLiga_logo_2023.svg.png"group-title=" ",la liga 
+http://vipgpno.top:8080/VIP01578172383831694/670789d0c305/254
+EXTINF:-1tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/240px-LaLiga_logo_2023.svg.png  "group-title="  ",LaLiga+
+ht
